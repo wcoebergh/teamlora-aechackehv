@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Fix this!</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+       var details = {
+         title: "Coffee shortage",
+         prio: 5,
+         source: "Twitter #AEChack, keyword 'coffee', sentiment: <1",
+         action: "Just refill it. Immediately.",
+         locDescr: "GasLab",
+         longLat: ""
+       }
+    </script>
+    <script src="details.js"></script>
+  </head>
+  <body>
+     <h1>Fix this!</h1>
+     <h2 id="title"></h2>
+     <p><div id="prio" style="display:inline-block; height:50px; width:50px; vertical-align:middle;"></div> <a><img alt="locate" title="Locate" src="../img/location.png" /></a> <a><img src="../img/checkmark.png" title="Mark done" alt="done" /></a></p>
+     <h3>Issue source</h3> 
+     <p id="source"></p>
+     <h3>Required action</h3>
+     <p id="action"></p>
+     <h3>Location</h3>
+     <p id="locDescr"></p>
+  </body>
+</html>
+
+

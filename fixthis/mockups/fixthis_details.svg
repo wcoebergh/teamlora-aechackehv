@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="720"
+   height="1280"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="fm_1b.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.40331719"
+     inkscape:cx="655.09176"
+     inkscape:cy="755.27597"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="753"
+     inkscape:window-height="847"
+     inkscape:window-x="1"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="10"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       units="px"
+       spacingx="10px"
+       spacingy="10px"
+       dotted="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2983"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="10px"
+       spacingy="10px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,227.63782)">
+    <rect
+       style="fill:#ff9600;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2988-7-7"
+       width="50"
+       height="50"
+       x="100"
+       y="102.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="100"
+       y="52.362179"
+       id="text3823-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3825-2"
+         x="100"
+         y="52.362179"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Coffee shortage</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="100"
+       y="-93.910583"
+       id="text3869"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3871"
+         x="100"
+         y="-93.910583"
+         style="font-size:75px">Fix this!</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3900"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3902"><rect
+           id="rect3904"
+           width="1359.6708"
+           height="213.66255"
+           x="-1714.8501"
+           y="-54.697235" /></flowRegion><flowPara
+         id="flowPara3906"></flowPara></flowRoot>    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#35a91f;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3819-8"
+       sodipodi:cx="650"
+       sodipodi:cy="530"
+       sodipodi:rx="50"
+       sodipodi:ry="50"
+       d="m 700,530 a 50,50 0 1 1 -100,0 50,50 0 1 1 100,0 z"
+       transform="matrix(0.5,0,0,0.5,302.2622,-139.16711)" />
+    <path
+       style="fill:none;stroke:#35a91f;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 613.81166,122.00045 624.72347,137.27697 640,114.36218"
+       id="path3821-4"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#1f73a9;stroke-width:7.95000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3819-8-8"
+       sodipodi:cx="650"
+       sodipodi:cy="530"
+       sodipodi:rx="50"
+       sodipodi:ry="50"
+       d="m 700,530 a 50,50 0 1 1 -100,0 50,50 0 1 1 100,0 z"
+       transform="matrix(0.37735849,0,0,0.37735849,285.84906,-77.63782)" />
+    <path
+       style="fill:none;stroke:#1f73a9;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 500,350 60,0"
+       id="path4167"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-227.63782)" />
+    <path
+       style="fill:none;stroke:#1f73a9;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 530,320 0,60"
+       id="path4169"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-227.63782)" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="100"
+       y="252.36218"
+       id="text3823-4-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="100"
+         y="252.36218"
+         id="tspan4338" /></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4344"
+       width="500"
+       height="160"
+       x="900"
+       y="380"
+       transform="translate(0,-227.63782)" />
+    <text
+       xml:space="preserve"
+       style="font-size:75px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="981.75574"
+       y="252.69531"
+       id="text4346"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4348"
+         x="981.75574"
+         y="252.69531"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Fix this!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:75px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="101.68719"
+       y="478.77502"
+       id="text4350"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-227.63782)"><tspan
+         sodipodi:role="line"
+         id="tspan4352"
+         x="101.68719"
+         y="478.77502"
+         style="font-size:40px">Priority: </tspan><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="528.77502"
+         style="font-size:40px"
+         id="tspan4354"></tspan><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="578.77502"
+         style="font-size:40px"
+         id="tspan4370">Source:</tspan><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="628.77502"
+         style="font-size:40px"
+         id="tspan4356"></tspan><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="678.77502"
+         style="font-size:40px"
+         id="tspan4372">Triggering observation:</tspan><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="728.77502"
+         style="font-size:40px"
+         id="tspan4368" /><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="778.77502"
+         style="font-size:40px"
+         id="tspan4366">Condition value:</tspan><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="828.77502"
+         style="font-size:40px"
+         id="tspan4360" /><tspan
+         sodipodi:role="line"
+         x="101.68719"
+         y="878.77502"
+         style="font-size:40px"
+         id="tspan4358">Required actions:</tspan></text>
+  </g>
+</svg>

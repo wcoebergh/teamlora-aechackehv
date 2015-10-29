@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+		<title>HotDesk</title>
+      	<!--Import Google Icon Font-->
+	  	<link rel="stylesheet" href="css/material-icons.css" type="text/css" media="screen">
+	  
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+
+      	<!--Let browser know website is optimized for mobile-->
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+		var myCenter=new google.maps.LatLng(51.44787,5.48612);
+
+		function initialize()
+		{
+		var mapProp = {
+		  center:myCenter,
+		  zoom:12,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+		var marker=new google.maps.Marker({
+		  position:myCenter,
+		  });
+
+		marker.setMap(map);
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+    </head>
+
+    <body>
+		
+	    <nav class="red darken-4" role="navigation">
+	      <div class="nav-wrapper container">
+			<div class="row">
+				 <form class="col s8 offset-s2">
+				 	<div class="row">
+						<div class="input-field col s12">
+						   <input placeholder="Search for a flex space" type="text">
+						</div>
+					</div>
+				 </form>
+				 <div class="col s2 right">
+					   <i class="large material-icons prefix account-icon">account_circle</i>
+				 </div>
+			</div>
+	      </div>
+	    </nav>
+		
+		<header>
+			<div class="tag">
+				<div class="container">
+					<div class="row">
+						<div class="col s8">
+							<h2>TU/e flexroom gaslab <br/> &#8364;50,- per hour</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section id="content">
+			<div class="container">
+				<div class="col s12">
+				      <ul class="tabs">
+				        <li class="tab col s4"><a class="active" href="#details">Details</a></li>
+				        <li class="tab col s4"><a href="#rating">Rating</a></li>
+				        <li class="tab col s4"><a href="#reviews">Reviews</a></li>
+				      </ul>
+				    </div>
+				    <div id="details" class="col s12">
+				    	<h2>Description</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing 
+							elit. Aenean commodo ligula eget dolor. Aenean massa.
+							Cum sociis natoque penatibus et magnis dis parturient
+							 montes, nascetur ridiculus mus. Donec quam felis, 
+							ultricies nec, pellentesque eu
+						</p>
+						
+				    	<h2>Distance</h2>
+						<p>2.0 km from your current location</p>
+						<div id="googleMap"></div>
+						
+				    	<h2>Price</h2>
+						<p>&#8364;12,- per hour</p>
+				    </div>
+				    <div id="rating" class="col s12">
+				    	<div class="row">
+							<div class="col s6">
+								<h2>Temperature</h2>
+							</div>
+							<div class="col s6">
+								<h2><i>23 &deg;C</i></2>
+							</div>
+							
+						</div>
+				    	<div class="row">
+							<div class="col s6">
+								<h2>Decibel</h2>
+							</div>
+							<div class="col s12">
+								<progress max="110" value="80"></progress>
+							</div>
+							
+							
+						</div>
+				    	<div class="row">
+							<div class="col s6">
+								<h2>Facilities</h2>
+							</div>
+							<div class="col s12">
+								<div class="row">
+									<div class="col s6">
+										Wifi
+									</div>
+									<div class="col s6 stars">
+				 				    	<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+				 						<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+									</div>
+									
+									<div class="col s6">
+										Koffie
+									</div>
+									<div class="col s6 stars">
+				 				    	<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+				 						<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+									</div>
+									
+									<div class="col s6">
+										Temperature
+									</div>
+									<div class="col s6 stars">
+				 				    	<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+				 						<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+									</div>
+									
+									<div class="col s6">
+										Decibel
+									</div>
+									<div class="col s6 stars">
+				 				    	<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+				 						<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+									</div>
+									
+									<div class="col s6">
+										Light
+									</div>
+									<div class="col s6 stars">
+				 				    	<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+										<img class="responsive-img" src="img/star-active.png" width="12" height="12" alt="Star Active">
+				 						<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+										<img class="responsive-img" src="img/star_rating_empty.png" width="11" height="11" alt="Star Rating Empty">
+									</div>
+									
+								</div>
+							</div>
+						</div>
+				    </div>
+				    <div id="reviews">
+				    	<div class="card-panel z-depth-0">
+							<div class="row valign-wrapper">
+								<div class="col s3">
+							    	<img src="img/account.png" alt="" class="square responsive-img">
+							   	</div>
+							    <div class="col s9">
+									<h3 class="name">Piet Jansen</h3>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+										</p>
+										<time>October 2015</time>
+							    </div>
+							</div> 
+						</div>
+				    	<div class="card-panel z-depth-0">
+							<div class="row valign-wrapper">
+								<div class="col s3">
+							    	<img src="img/account.png" alt="" class="square responsive-img">
+							   	</div>
+							    <div class="col s9">
+									<h3 class="name">Piet Jansen</h3>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+										</p>
+										<time>October 2015</time>
+							    </div>
+							</div> 
+						</div>
+				    	<div class="card-panel z-depth-0">
+							<div class="row valign-wrapper">
+								<div class="col s3">
+							    	<img src="img/account.png" alt="" class="square responsive-img">
+							   	</div>
+							    <div class="col s9">
+									<h3 class="name">Piet Jansen</h3>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+										</p>
+										<time>October 2015</time>
+							    </div>
+							</div> 
+						</div>
+				    	<div class="card-panel z-depth-0">
+							<div class="row valign-wrapper">
+								<div class="col s3">
+							    	<img src="img/account.png" alt="" class="square responsive-img">
+							   	</div>
+							    <div class="col s9">
+									<h3 class="name">Piet Jansen</h3>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+										</p>
+										<time>October 2015</time>
+							    </div>
+							</div> 
+						</div>
+							
+				    </div>
+			</div>
+		</section>			
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col s8 offset-s2 center">
+						<p>&#129;Hotdesk</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	  	<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	  	<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    $('ul.tabs').tabs();
+		  });
+		</script>
+    </body>
+  </html>

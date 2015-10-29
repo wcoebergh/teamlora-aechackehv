@@ -1,0 +1,76 @@
+Algorithm-Calculate average operating Conditions
+
+/** Average operating conditions during normal work hours over past week
+For each property: temperature, humidity, sound level, light level
+  For each day from now to (now-7 days)
+    For each measurement with time from 09:00 to 17:00
+      Increment counter
+     Add property to PropertySum
+    Next measurement
+   Next day
+   AverageProperty = PropertySum/Counter
+NextProperty
+
+
+
+
+Algorithm-Get Property Condition Index
+
+/** ConditionIndex = 1.0 for Target (ideal) value, 0 for worst case
+/** based on average operating conditions
+/** User entered: Target, Max, Min for each Property
+For each property:
+if AverageOperatingCondition >= Target
+  ConditionIndex = 1 - ((AverageOperatingCondition - Target) / (Max - Target))
+else
+  ConditionIndex = 1 - ((Target - AverageOperatingCondition) / (Target - Min))
+end if
+ConditionIndex = min(ConditionIndex , 0)
+
+
+
+
+Algorithm-Detect System Failure
+
+/** Identify large, sudden changes in operating condition (mus
+/** User entered: TriggerChangeRate, TriggerFailureEventCount
+For each property: Temperature, Humidity
+  For each sensor measurement
+    SensorChangeRate=(SensorValue – BaselineSensorValue) / (Time Stamp – BaselineTime Stamp)
+    If SensorChangeRate > TriggerChangeRate then
+      Increment FailureEventCount 
+      If FailureEventCount > = TriggerFailureEventCount then
+        Failure detected
+      End if 
+
+    Else
+      /** If previous failures detected, reset failure count to 0
+      If FailureEventCount >0 then FailureEventCount =0
+    End if
+
+
+
+Algorithm-Get Average User Satisfaction Index
+/** Simple average of all user Satisfaction values
+/** User Satistaction values = 1.0 for good, 0.0 for bad, can be binary or continuous.
+AverageUserSatisfactionIndex = sum(UserSatisfactionRating) / Count (UserSatisfactionRating) 
+
+
+
+
+
+Algorithm-Get Overall Asset Condition Index
+
+/** ConditionIndex = 1.0 for Target (ideal) value, 0 for worst case
+/** AverageTechnicalConditionIndex = average of all Property Condition Indecies
+/** Overall Condition INdex = average of AverageTechnicalConditionIndex and AverageUserSatisfactionIndex
+
+For each property:  Temp, Humidity
+AverageTechnicalConditionIndex = sum(PropertyConditionIndex) / Count (PropertyConditionIndex)
+/** TO DO:  Adjust algorithm if either or both indecies don't exist
+OverallConditionIndex = average( AverageTechnicalConditionIndex , AverageUserSatisfactionIndex )
+
+
+
+
+

@@ -1,0 +1,17 @@
+body {
+  font-family: Sans, Arial, Helvetica;
+}
+table {
+}
+h1 {
+}
+td {
+  padding: 5px;
+}
+tr {
+  height: 50px;
+}
+.priority {
+  width: 50px; 
+
+}
